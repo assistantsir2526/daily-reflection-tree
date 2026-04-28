@@ -2,22 +2,22 @@
 
 ## Overview
 
-This AI agent helps users reflect on their daily productivity using a rule-based approach.
+This AI agent helps users reflect on their daily productivity using a rule-based system.
 
-## How it works
+## Working
 
 1. It asks structured questions.
-2. It maps user responses to fixed outputs.
+2. It maps answers to predefined outputs.
 3. It provides one clear improvement suggestion.
 
-## Guardrails to prevent hallucination
+## Guardrails
 
-* Only predefined inputs are accepted
 * No assumptions are made
-* No random responses are generated
+* Only predefined inputs are accepted
 * Same input always gives same output
+* No randomness is involved
 
 ## Example
 
 Input: "No, I was distracted"
-Output: "Eliminate distractions and create a focused workspace"
+Output: "Eliminate distractions and create a focused environment"
